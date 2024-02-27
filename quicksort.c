@@ -145,7 +145,7 @@ int main()
     start = (long)clock();
     quickSort(arr100k, 0, size100k - 1);
     end = (long)clock();
-    //printArray(arr100k, size100k);
+    printArray(arr100k, size100k);
     printf("Execution time: %li microseconds\n", end - start);
 
     return 0;
